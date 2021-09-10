@@ -41,4 +41,6 @@ body{
 .card{
   opacity: 0.9;
 }
-
+span{
+  text-decoration: underline;
+}
