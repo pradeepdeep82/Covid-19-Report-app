@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&display=swap');
+body{
+  text-align: center;
+  font-family: 'Martel', serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url('https://thepathologist.com/fileadmin/_processed_/e/4/csm_0320-900_Supp_COVID19_Teaser_af4a0d487d.jpg');
+  background-size: cover;
+}
+.covidList{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid black; ;
+}
+.lastList{
+  border-bottom: 0px;
+}
+
+.covidList>:nth-child(2){
+  font-weight: bolder;
+}
+.green{
+  color: rgb(41, 187, 41);
+}
+.red{
+  color: red;
+}
+.header{
+  background-color: rgba(240, 186, 172, 0.781);
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+}
+.header>h1{
+  font-size: 50px;
+}
+.footer{
+  background-color: rgba(240, 186, 172, 0.781);
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+}
+.card{
+  opacity: 0.9;
+}
+
